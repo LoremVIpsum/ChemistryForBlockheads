@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "cfb",
+  "version": "${version}",
+
+  "name": "Chemistry For Blockheads",
+  "description": "Logistical Chemistry",
+  "authors": [
+    "LoremV"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/cfb/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.loremv.cfb.CFB"
+    ]
+  },
+  "mixins": [
+    "cfb.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

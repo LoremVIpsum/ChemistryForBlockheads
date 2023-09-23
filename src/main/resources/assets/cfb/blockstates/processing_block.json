@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cfb:block/processing_block"
+    }
+  }
+}

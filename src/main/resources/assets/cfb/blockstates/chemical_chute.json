@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cfb:block/chemical_chute"
+    }
+  }
+}
